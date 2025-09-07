@@ -9,12 +9,20 @@ header {
     background: url(header_bg.webp);
     background-size: cover;
     display: flex;
+    background: linear-gradient(blue, red);
 }
+
+.name {
+    background: linear-gradient(to right, red, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
 
 .header_left {
     width: 65%;
     height: 100%;
-    font-size: 3vw;
+    font-size: 55px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +33,7 @@ header {
 }
 
 .header_left p {
-    font-size: 0.5em;
+    font-size: 40px;
 }
 
 .bio {
@@ -40,6 +48,7 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 10vw;
+    color: brown;
 }
 
 .header_btn {
